@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<spree_core>, ["~> 2.3.0.beta"])
+      s.add_runtime_dependency(%q<spree_core>, ["~> 2.4.0"])
       s.add_development_dependency(%q<capybara>, ["~> 2.1"])
       s.add_development_dependency(%q<coffee-rails>, [">= 0"])
       s.add_development_dependency(%q<database_cleaner>, [">= 0"])
@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<simplecov>, [">= 0"])
       s.add_development_dependency(%q<sqlite3>, [">= 0"])
     else
-      s.add_dependency(%q<spree_core>, ["~> 2.3.0.beta"])
+      s.add_dependency(%q<spree_core>, ["~> 2.4.0"])
       s.add_dependency(%q<capybara>, ["~> 2.1"])
       s.add_dependency(%q<coffee-rails>, [">= 0"])
       s.add_dependency(%q<database_cleaner>, [">= 0"])
@@ -47,7 +47,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<sqlite3>, [">= 0"])
     end
   else
-    s.add_dependency(%q<spree_core>, ["~> 2.3.0.beta"])
+    s.add_dependency(%q<spree_core>, ["~> 2.4.0"])
     s.add_dependency(%q<capybara>, ["~> 2.1"])
     s.add_dependency(%q<coffee-rails>, [">= 0"])
     s.add_dependency(%q<database_cleaner>, [">= 0"])
